@@ -88,7 +88,6 @@ public class King extends ChessPiece {
 					mat[position.getRow()][position.getColumn() + 2] = true;
 				}
 			}
-
 			// Queen side rook
 			Position positionT2 = new Position(position.getRow(), position.getColumn() - 4);
 			if (testRookCastling(positionT2)) {
